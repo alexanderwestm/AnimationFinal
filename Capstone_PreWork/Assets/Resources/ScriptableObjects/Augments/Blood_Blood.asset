@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 178d73fa35d636c4bb6b08e8dcac9266, type: 3}
+  m_Name: Blood_Blood
+  m_EditorClassIdentifier: 
+  type: 11
+  passiveVariables:
+    list:
+    - key: modifier
+      value: 0
+  activeVariables:
+    list:
+    - key: maxCharge
+      value: 100
+    - key: depletionAmount
+      value: 100
+    - key: rechargeAmount
+      value: 10
+    - key: damageModifier
+      value: 0.5
+    - key: activeTime
+      value: 10
+  passiveDescription: 
+  activeDescription: 

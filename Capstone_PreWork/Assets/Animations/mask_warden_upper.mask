@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mask_warden_upper
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: warden:g_mesh
+    m_Weight: 0
+  - m_Path: warden:g_mesh/warden:m_warden
+    m_Weight: 0
+  - m_Path: warden:g_mesh/warden:m_bowString
+    m_Weight: 0
+  - m_Path: warden:g_mesh/warden:m_bow
+    m_Weight: 0
+  - m_Path: warden:g_mesh/warden:m_boStaff
+    m_Weight: 0
+  - m_Path: warden:g_skeleton
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidTop_01_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidTop_02_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidTop_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidTop_03_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidTop_04_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidSideOutter_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidBot_04_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidBot_03_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidBot_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidBot_02_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidBot_01_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_L/warden:skel_eLidSideInner_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidTop_01_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidTop_02_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidTop_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidTop_03_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidTop_04_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidSideOutter_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidBot_04_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidBot_03_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidBot_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidBot_02_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidBot_01_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_neck/warden:skel_Head/warden:skel_headEnd/warden:skel_eye_R/warden:skel_eLidSideInner_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_pinky_L_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_pinky_L_01/warden:skel_pinky_L_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_pinky_L_01/warden:skel_pinky_L_02/warden:skel_pinky_L_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_pinky_L_01/warden:skel_pinky_L_02/warden:skel_pinky_L_03/warden:skel_pinky_L_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_ring_L_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_ring_L_01/warden:skel_ring_L_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_ring_L_01/warden:skel_ring_L_02/warden:skel_ring_L_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_ring_L_01/warden:skel_ring_L_02/warden:skel_ring_L_03/warden:skel_ring_L_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_middle_L_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_middle_L_01/warden:skel_middle_L_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_middle_L_01/warden:skel_middle_L_02/warden:skel_middle_L_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_middle_L_01/warden:skel_middle_L_02/warden:skel_middle_L_03/warden:skel_middle_L_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_pointer_L_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_pointer_L_01/warden:skel_pointer_L_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_pointer_L_01/warden:skel_pointer_L_02/warden:skel_pointer_L_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_pointer_L_01/warden:skel_pointer_L_02/warden:skel_pointer_L_03/warden:skel_pointer_L_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_thumb_L_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_thumb_L_01/warden:skel_thumb_L_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_thumb_L_01/warden:skel_thumb_L_02/warden:skel_thumb_L_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_L/warden:skel_bicep_L/warden:skel_forearm_L/warden:skel_wrist_L/warden:skel_thumb_L_01/warden:skel_thumb_L_02/warden:skel_thumb_L_03/warden:skel_thumb_L_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_pinky_R_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_pinky_R_01/warden:skel_pinky_R_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_pinky_R_01/warden:skel_pinky_R_02/warden:skel_pinky_R_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_pinky_R_01/warden:skel_pinky_R_02/warden:skel_pinky_R_03/warden:skel_pinky_R_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_ring_R_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_ring_R_01/warden:skel_ring_R_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_ring_R_01/warden:skel_ring_R_02/warden:skel_ring_R_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_ring_R_01/warden:skel_ring_R_02/warden:skel_ring_R_03/warden:skel_ring_R_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_middle_R_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_middle_R_01/warden:skel_middle_R_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_middle_R_01/warden:skel_middle_R_02/warden:skel_middle_R_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_middle_R_01/warden:skel_middle_R_02/warden:skel_middle_R_03/warden:skel_middle_R_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_pointer_R_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_pointer_R_01/warden:skel_pointer_R_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_pointer_R_01/warden:skel_pointer_R_02/warden:skel_pointer_R_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_pointer_R_01/warden:skel_pointer_R_02/warden:skel_pointer_R_03/warden:skel_pointer_R_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_thumb_R_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_thumb_R_01/warden:skel_thumb_R_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_thumb_R_01/warden:skel_thumb_R_02/warden:skel_thumb_R_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_spine/warden:skel_chest/warden:skel_clav_R/warden:skel_bicep_R/warden:skel_forearm_R/warden:skel_wrist_R/warden:skel_thumb_R_01/warden:skel_thumb_R_02/warden:skel_thumb_R_03/warden:skel_thumb_R_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_L
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_L/warden:skel_knee_L
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_L/warden:skel_knee_L/warden:skel_ankle_L
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_L/warden:skel_knee_L/warden:skel_ankle_L/warden:skel_ball_L
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_L/warden:skel_knee_L/warden:skel_ankle_L/warden:skel_ball_L/warden:skel_toe_L
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_R
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_R/warden:skel_knee_R
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_R/warden:skel_knee_R/warden:skel_ankle_R
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_R/warden:skel_knee_R/warden:skel_ankle_R/warden:skel_ball_R
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_pelvis/warden:skel_hip/warden:skel_hip_R/warden:skel_knee_R/warden:skel_ankle_R/warden:skel_ball_R/warden:skel_toe_R
+    m_Weight: 0
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_boStaffGripFront
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_boStaffGripFront/warden:skel_boStaffGripBack
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_boStaffGripFront/warden:skel_boStaffGripBack/warden:skel_boStaffEnd
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_boStaffGripFront/warden:skel_boStaffFront
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowTop_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowTop_01/warden:skel_bowTop_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowTop_01/warden:skel_bowTop_02/warden:skel_bowTop_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowTop_01/warden:skel_bowTop_02/warden:skel_bowTop_03/warden:skel_bowTop_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowTop_01/warden:skel_bowTop_02/warden:skel_bowTop_03/warden:skel_bowTop_04/warden:skel_bowTop_END
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowBot_01
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowBot_01/warden:skel_bowBot_02
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowBot_01/warden:skel_bowBot_02/warden:skel_bowBot_03
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowBot_01/warden:skel_bowBot_02/warden:skel_bowBot_03/warden:skel_bowBot_04
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_bowBot_01/warden:skel_bowBot_02/warden:skel_bowBot_03/warden:skel_bowBot_04/warden:skel_bowBot_END
+    m_Weight: 1
+  - m_Path: warden:g_skeleton/warden:skel_root/warden:skel_bow/warden:skel_string
+    m_Weight: 1

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: a05d530b477ce214db1f7fa3acacb08d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+=======
+guid: a072505de6cbd8f4798e312d18f7acd6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>> origin/Feature/SoundDesign
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

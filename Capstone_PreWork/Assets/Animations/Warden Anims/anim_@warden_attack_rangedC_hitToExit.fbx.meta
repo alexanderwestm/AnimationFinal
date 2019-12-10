@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 3ec7f6a3b0eb8dc41b8495fbf5a17e97
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 6752211078026987913
+    second: warden_attack_rangedC_hitToExit
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: warden_attack_rangedC_hitToExit
+      takeName: hitToExit
+      internalID: 0
+      firstFrame: 23
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.8
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: m_warden(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:g_mesh
+      parentName: m_warden(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:m_warden
+      parentName: warden:g_mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:g_skeleton
+      parentName: m_warden(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_root
+      parentName: warden:g_skeleton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pelvis
+      parentName: warden:skel_root
+      position: {x: -0.018518029, y: 0, z: 0.0006978218}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_spine
+      parentName: warden:skel_pelvis
+      position: {x: -0.0034904797, y: 0, z: 0.00018215996}
+      rotation: {x: 0, y: -0.05081945, z: -0, w: 0.9987079}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_chest
+      parentName: warden:skel_spine
+      position: {x: -0.002763032, y: 0, z: -0.00002218904}
+      rotation: {x: 0, y: 6.938894e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_neck
+      parentName: warden:skel_chest
+      position: {x: -0.002938703, y: 0, z: -0.00042594134}
+      rotation: {x: 0.03610035, y: 0.03610035, z: 0.7061847, w: 0.7061847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_Head
+      parentName: warden:skel_neck
+      position: {x: -0, y: 0.0023372811, z: 0.0006485817}
+      rotation: {x: -0.000165789, y: -0.000165789, z: -0.70710677, w: 0.70710677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_headEnd
+      parentName: warden:skel_Head
+      position: {x: -0.0020726586, y: 0, z: -1.598721e-19}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eye_L
+      parentName: warden:skel_headEnd
+      position: {x: -0.00061595254, y: 0.000011818032, z: 0.0021536588}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_01_L
+      parentName: warden:skel_eye_L
+      position: {x: 0.00037228537, y: 0.0003402548, z: 0.00020082029}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_02_L
+      parentName: warden:skel_eye_L
+      position: {x: 0.00021493898, y: 0.00059760397, z: 0.0001312533}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_L
+      parentName: warden:skel_eye_L
+      position: {x: -0, y: 0.00069482473, z: 0.00002651756}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_03_L
+      parentName: warden:skel_eye_L
+      position: {x: -0.00021493898, y: 0.00060586847, z: -0.0000853236}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_04_L
+      parentName: warden:skel_eye_L
+      position: {x: -0.00037228526, y: 0.00035457, z: -0.00017430254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidSideOutter_L
+      parentName: warden:skel_eye_L
+      position: {x: -0.00042987807, y: 0.000008264465, z: -0.00021657742}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_04_L
+      parentName: warden:skel_eye_L
+      position: {x: -0.00037228526, y: -0.0003402548, z: -0.00020082011}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_03_L
+      parentName: warden:skel_eye_L
+      position: {x: -0.00021493898, y: -0.00059760397, z: -0.0001312533}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_L
+      parentName: warden:skel_eye_L
+      position: {x: -0, y: -0.00069482473, z: -0.000026517388}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_02_L
+      parentName: warden:skel_eye_L
+      position: {x: 0.00021493898, y: -0.00060586847, z: 0.00008532377}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_01_L
+      parentName: warden:skel_eye_L
+      position: {x: 0.00037228537, y: -0.00035457, z: 0.00017430271}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidSideInner_L
+      parentName: warden:skel_eye_L
+      position: {x: 0.00042987807, y: -0.000008264465, z: 0.00021657726}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eye_R
+      parentName: warden:skel_headEnd
+      position: {x: 0.00061595277, y: 0.000011788481, z: 0.002153651}
+      rotation: {x: 1, y: -0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_01_R
+      parentName: warden:skel_eye_R
+      position: {x: -0.00037228494, y: -0.00034019994, z: -0.00020082596}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_02_R
+      parentName: warden:skel_eye_R
+      position: {x: -0.0002149398, y: -0.00059759995, z: -0.00013125599}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_R
+      parentName: warden:skel_eye_R
+      position: {x: -0, y: -0.00069479994, z: -0.000026531998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_03_R
+      parentName: warden:skel_eye_R
+      position: {x: 0.00021493797, y: -0.00060587993, z: 0.00008531998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidTop_04_R
+      parentName: warden:skel_eye_R
+      position: {x: 0.00037228494, y: -0.0003546, z: 0.000174294}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidSideOutter_R
+      parentName: warden:skel_eye_R
+      position: {x: 0.00042987778, y: -0.00000828, z: 0.00021657597}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_04_R
+      parentName: warden:skel_eye_R
+      position: {x: 0.00037228494, y: 0.00034019994, z: 0.00020080796}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_03_R
+      parentName: warden:skel_eye_R
+      position: {x: 0.00021493797, y: 0.00059759995, z: 0.00013123799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_R
+      parentName: warden:skel_eye_R
+      position: {x: -0, y: 0.00069479994, z: 0.000026513997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_01_R
+      parentName: warden:skel_eye_R
+      position: {x: -0.00037228494, y: 0.0003546, z: -0.000174312}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidSideInner_R
+      parentName: warden:skel_eye_R
+      position: {x: -0.00042987778, y: 0.00000828, z: -0.00021657597}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_eLidBot_02_R
+      parentName: warden:skel_eye_R
+      position: {x: -0.0002149398, y: 0.00060587993, z: -0.000085338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_clav_L
+      parentName: warden:skel_chest
+      position: {x: -0.0016762268, y: -0.0013423499, z: -0.0020054034}
+      rotation: {x: -0.0936357, y: 0.12425615, z: 0.6781948, w: 0.7182232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_bicep_L
+      parentName: warden:skel_clav_L
+      position: {x: -0.0018765243, y: 0, z: -2.8776979e-18}
+      rotation: {x: 0.15061525, y: -0.1597213, z: 0.06952277, w: 0.97312427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_forearm_L
+      parentName: warden:skel_bicep_L
+      position: {x: -0.004811364, y: -0.000069824724, z: 0.00005379118}
+      rotation: {x: -0.1779023, y: 0.04225411, z: -0.017696911, w: 0.9829813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_wrist_L
+      parentName: warden:skel_forearm_L
+      position: {x: -0.0059393505, y: 1.5347722e-17, z: -3.976819e-18}
+      rotation: {x: 0.00019243351, y: -0.0067862314, z: 0.035111506, w: 0.9993604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pinky_L_01
+      parentName: warden:skel_wrist_L
+      position: {x: -0.0013386317, y: 0.00022384738, z: -0.00058227364}
+      rotation: {x: 0.0042740726, y: 0.025540138, z: -0.054782853, w: 0.9981625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pinky_L_02
+      parentName: warden:skel_pinky_L_01
+      position: {x: -0.00065534597, y: -0.000010846289, z: 0}
+      rotation: {x: -0.000000020954745, y: -0.00000013411037, z: 0.04751983, w: 0.9988704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pinky_L_03
+      parentName: warden:skel_pinky_L_02
+      position: {x: -0.00049682875, y: -0.0000012693408, z: -1.598721e-19}
+      rotation: {x: 0.000000007543493, y: -0.00000026053192, z: 0.040992543, w: 0.99915946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pinky_L_04
+      parentName: warden:skel_pinky_L_03
+      position: {x: -0.00037819595, y: -5.7154276e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ring_L_01
+      parentName: warden:skel_wrist_L
+      position: {x: -0.0013654303, y: 0.00028911862, z: -0.0001841377}
+      rotation: {x: 0.0011509779, y: 0.03368847, z: -0.07849454, w: 0.99634457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ring_L_02
+      parentName: warden:skel_ring_L_01
+      position: {x: -0.0009402671, y: -0.000068871406, z: -1.1990408e-19}
+      rotation: {x: -0.00000003643798, y: 0.00000035762775, z: 0.06771203, w: 0.997705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ring_L_03
+      parentName: warden:skel_ring_L_02
+      position: {x: -0.00054632034, y: -0.000008860625, z: -1.598721e-19}
+      rotation: {x: -0.000000010004754, y: -0.00000016492538, z: 0.046703752, w: 0.9989088}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ring_L_04
+      parentName: warden:skel_ring_L_03
+      position: {x: -0.00044335274, y: -6.095124e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_middle_L_01
+      parentName: warden:skel_wrist_L
+      position: {x: -0.0013785929, y: 0.0003042096, z: 0.00021328467}
+      rotation: {x: 0.0007441425, y: 0.034464806, z: -0.08178128, w: 0.99605393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_middle_L_02
+      parentName: warden:skel_middle_L_01
+      position: {x: -0.0009848385, y: -0.00007928234, z: -1.1959183e-19}
+      rotation: {x: -0.00000004930187, y: -0.00000011548396, z: 0.051463127, w: 0.9986749}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_middle_L_03
+      parentName: warden:skel_middle_L_02
+      position: {x: -0.0006724362, y: -0.00003663546, z: -2.0514838e-19}
+      rotation: {x: -0.00000015995629, y: -0.00000043888727, z: 0.061102584, w: 0.9981315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_middle_L_04
+      parentName: warden:skel_middle_L_03
+      position: {x: -0.00044335274, y: -6.095124e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pointer_L_01
+      parentName: warden:skel_wrist_L
+      position: {x: -0.0014316883, y: 0.00017751753, z: 0.00055946235}
+      rotation: {x: 0.00089441164, y: 0.03507281, z: -0.07059576, w: 0.99688786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pointer_L_02
+      parentName: warden:skel_pointer_L_01
+      position: {x: -0.00086064707, y: -0.000050273877, z: -1.0391687e-18}
+      rotation: {x: -0.0000000013969834, y: 0.00000033155072, z: 0.055092905, w: 0.9984813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pointer_L_03
+      parentName: warden:skel_pointer_L_02
+      position: {x: -0.000544803, y: -0.000014360679, z: -3.3092666e-19}
+      rotation: {x: 0.000000043984215, y: 0.00000051654973, z: 0.051857542, w: 0.9986545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pointer_L_04
+      parentName: warden:skel_pointer_L_03
+      position: {x: -0.00044335274, y: -6.095124e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_thumb_L_01
+      parentName: warden:skel_wrist_L
+      position: {x: -0.00030355048, y: -0.00016850143, z: 0.00044719336}
+      rotation: {x: 0.08545253, y: 0.4092275, z: 0.0017208335, w: 0.9084205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_thumb_L_02
+      parentName: warden:skel_thumb_L_01
+      position: {x: -0.0007835718, y: -1.3776478e-18, z: 0.0000132571295}
+      rotation: {x: 0.016615964, y: -0.022209156, z: -0.009365958, w: 0.99957144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_thumb_L_03
+      parentName: warden:skel_thumb_L_02
+      position: {x: -0.0008003528, y: -1.878497e-18, z: 1.598721e-19}
+      rotation: {x: -0.000000031664946, y: -0.040423505, z: -0.00000031664945, w: 0.99918264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_thumb_L_04
+      parentName: warden:skel_thumb_L_03
+      position: {x: -0.00048364827, y: 8.8785224e-18, z: 3.1936951e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_clav_R
+      parentName: warden:skel_chest
+      position: {x: -0.0016761738, y: 0.0013423499, z: -0.0020054085}
+      rotation: {x: 0.6781972, y: 0.71822107, z: 0.093635924, w: -0.12425484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_bicep_R
+      parentName: warden:skel_clav_R
+      position: {x: 0.0018765263, y: -0.000000021243169, z: -7.1382095e-10}
+      rotation: {x: 0.15046039, y: -0.1597278, z: 0.06950946, w: 0.97314805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_forearm_R
+      parentName: warden:skel_bicep_R
+      position: {x: 0.004811317, y: 0.00006970472, z: -0.00005370384}
+      rotation: {x: -0.17774563, y: 0.042254265, z: -0.017698245, w: 0.9830096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_wrist_R
+      parentName: warden:skel_forearm_R
+      position: {x: 0.005939427, y: 0.00000010869824, z: 0.000000004558911}
+      rotation: {x: 0.00019372992, y: -0.0067870296, z: 0.035121124, w: 0.99935997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pinky_R_01
+      parentName: warden:skel_wrist_R
+      position: {x: 0.0013385821, y: -0.00022394238, z: 0.00058227056}
+      rotation: {x: 0.0042710183, y: 0.025549505, z: -0.05481118, w: 0.99816066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pinky_R_02
+      parentName: warden:skel_pinky_R_01
+      position: {x: 0.0006553687, y: 0.000010887698, z: -1.4388489e-18}
+      rotation: {x: 0.0000000125728565, y: -0.00000057369476, z: 0.04760959, w: 0.998866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pinky_R_03
+      parentName: warden:skel_pinky_R_02
+      position: {x: 0.0004967925, y: 0.0000012184138, z: -1.2789768e-18}
+      rotation: {x: -0.000000033150766, y: 0.00000055358436, z: 0.040802453, w: 0.99916726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pinky_R_04
+      parentName: warden:skel_pinky_R_03
+      position: {x: 0.0003782773, y: 0.000000098600744, z: -1.1191046e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ring_R_01
+      parentName: warden:skel_wrist_R
+      position: {x: 0.0013654114, y: -0.0002891592, z: 0.00018413602}
+      rotation: {x: 0.0011518588, y: 0.033686593, z: -0.07848663, w: 0.9963452}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ring_R_02
+      parentName: warden:skel_ring_R_01
+      position: {x: 0.00094024173, y: 0.00006884767, z: -4.664801e-10}
+      rotation: {x: -0.000000025378537, y: -0.00000027194616, z: 0.06766661, w: 0.99770796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ring_R_03
+      parentName: warden:skel_ring_R_02
+      position: {x: 0.0005463568, y: 0.000008907099, z: 1.2400565e-10}
+      rotation: {x: 0.00000008236467, y: -0.0000004663362, z: 0.046739113, w: 0.99890715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ring_R_04
+      parentName: warden:skel_ring_R_03
+      position: {x: 0.000443364, y: 0.000000005363501, z: 0.0000000011893788}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_middle_R_01
+      parentName: warden:skel_wrist_R
+      position: {x: 0.0013785894, y: -0.00030421265, z: -0.00021328496}
+      rotation: {x: 0.000750156, y: 0.03445319, z: -0.08173189, w: 0.9960584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_middle_R_02
+      parentName: warden:skel_middle_R_01
+      position: {x: 0.0009847792, y: 0.00007917313, z: -5.4807414e-10}
+      rotation: {x: -0.000000086904045, y: 0.00000007450581, z: 0.05139722, w: 0.9986783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_middle_R_03
+      parentName: warden:skel_middle_R_02
+      position: {x: 0.0006724404, y: 0.000036643116, z: 1.463274e-10}
+      rotation: {x: -0.000000019521892, y: -0.0000011754628, z: 0.061109025, w: 0.99813116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_middle_R_04
+      parentName: warden:skel_middle_R_03
+      position: {x: 0.00044337296, y: 0.0000000021146214, z: 7.836661e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pointer_R_01
+      parentName: warden:skel_wrist_R
+      position: {x: 0.0014316153, y: -0.00017764613, z: -0.000559468}
+      rotation: {x: 0.0008884528, y: 0.035084367, z: -0.07064424, w: 0.996884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pointer_R_02
+      parentName: warden:skel_pointer_R_01
+      position: {x: 0.0008607021, y: 0.000050368748, z: 9.836769e-10}
+      rotation: {x: 0.000000008556527, y: 0.00000049918896, z: 0.055115018, w: 0.99848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pointer_R_03
+      parentName: warden:skel_pointer_R_02
+      position: {x: 0.0005448244, y: 0.000014393458, z: 8.9385577e-10}
+      rotation: {x: 0.000000017871383, y: -0.0000012236196, z: 0.052009128, w: 0.9986467}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_pointer_R_04
+      parentName: warden:skel_pointer_R_03
+      position: {x: 0.00044322552, y: -0.00000010311342, z: -0.0000000014139732}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_thumb_R_01
+      parentName: warden:skel_wrist_R
+      position: {x: 0.00030352647, y: 0.00016847538, z: -0.0004471959}
+      rotation: {x: 0.0854443, y: 0.40923738, z: 0.0017031623, w: 0.90841687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_thumb_R_02
+      parentName: warden:skel_thumb_R_01
+      position: {x: 0.00078359654, y: 0.000000026786724, z: -0.000013242564}
+      rotation: {x: 0.016615227, y: -0.022217125, z: -0.009337096, w: 0.99957156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_thumb_R_03
+      parentName: warden:skel_thumb_R_02
+      position: {x: 0.0008003402, y: -0.000000023348326, z: 1.8319866e-10}
+      rotation: {x: 0.0000024791798, y: -0.040407043, z: 0.000028954692, w: 0.9991833}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_thumb_R_04
+      parentName: warden:skel_thumb_R_03
+      position: {x: 0.00048360543, y: -0.00000008842982, z: 0.000000014098472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_handGrip_R
+      parentName: warden:skel_wrist_R
+      position: {x: 0.0009996801, y: 0.00030535524, z: 0.000058469803}
+      rotation: {x: 2.53717e-16, y: -0.027906064, z: -0.00023817565, w: 0.99961054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_hip
+      parentName: warden:skel_pelvis
+      position: {x: -0, y: 0, z: -1.682971e-12}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_hip_L
+      parentName: warden:skel_hip
+      position: {x: -0.0019158656, y: -0.0007327228, z: -0.0005531887}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_knee_L
+      parentName: warden:skel_hip_L
+      position: {x: -0.0067929314, y: 5.4910115e-19, z: -0.00018088914}
+      rotation: {x: 5.7491792e-30, y: -0.04688208, z: 4.0534386e-29, w: 0.9989005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ankle_L
+      parentName: warden:skel_knee_L
+      position: {x: -0.008619402, y: 1.917053e-18, z: 0.00015133401}
+      rotation: {x: 0.5864318, y: 0.3950921, z: -0.3950921, w: 0.5864318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ball_L
+      parentName: warden:skel_ankle_L
+      position: {x: -0.0029226677, y: -0.0005994294, z: 1.0338579e-17}
+      rotation: {x: 2.5707744e-16, y: -2.6591547e-15, z: -0.24113937, w: 0.9704905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_toe_L
+      parentName: warden:skel_ball_L
+      position: {x: -0.0018387124, y: -0.0000151276345, z: 1.8812406e-19}
+      rotation: {x: -2.6666806e-32, y: -6.24965e-34, z: -3.469447e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_hip_R
+      parentName: warden:skel_hip
+      position: {x: 0.001915866, y: -0.00073272595, z: -0.0005531887}
+      rotation: {x: 0.7071068, y: -0.7071068, z: 2.0030707e-16, w: -2.0030707e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_knee_R
+      parentName: warden:skel_hip_R
+      position: {x: 0.0067929295, y: 2.215253e-20, z: 0.00018088914}
+      rotation: {x: -6.305384e-33, y: -0.04688208, z: -7.491893e-32, w: 0.9989005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ankle_R
+      parentName: warden:skel_knee_R
+      position: {x: 0.008619409, y: -1.8614898e-20, z: -0.00015133401}
+      rotation: {x: 0.5864318, y: 0.3950921, z: -0.3950921, w: 0.5864318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_ball_R
+      parentName: warden:skel_ankle_R
+      position: {x: 0.0029226644, y: 0.0005994213, z: -4.7999724e-19}
+      rotation: {x: -3.823024e-18, y: -1.0949166e-17, z: -0.24113937, w: 0.9704905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: warden:skel_toe_R
+      parentName: warden:skel_ball_R
+      position: {x: 0.0018387124, y: 0.0000151276345, z: -7.564636e-19}
+      rotation: {x: -1.2977212e-31, y: -5.2358693e-32, z: -5.2041704e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.018
+    rootMotionBoneName: warden:skel_root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 19358847fa394bd45b843c4ce51c928e,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
